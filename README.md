@@ -23,4 +23,5 @@ Fonctions mise en oeuvre :
 Next Step :
  - communication entre deux Spark / Particle
 
-v0 (c) e-Coucou 2015
+***
+(c) e-Coucou 2015
