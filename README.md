@@ -20,5 +20,7 @@ Fonctions mise en oeuvre :
  - visualisation variables web dans google spreadsheet
  - fonction de commande à partir curl ou intégration IFTT et DoButton
  
+Next Step :
+ - communication entre deux Spark / Particle
 
 v0 (c) e-Coucou 2015
