@@ -73,9 +73,30 @@
 
 <h3>
 <a id="next-step-" class="anchor" href="#next-step-" aria-hidden="true"><span class="octicon octicon-link"></span></a>Next Step :</h3>
-
 <ul>
 <li>communication entre deux Spark / Particle</li>
+<li>calcul YPR pour fonction gyroscope</li>
+<li>affichage d'un compas pour gyrscope</li>
+<li>déclenchement sur seuils paramètrables "mouvement/vibration" et "capteurs"</li>
+<li>intégration capteur son</li>
+</ul>
+<hr>
+<h3>
+<a id="next-step-" class="anchor" href="#next-step-" aria-hidden="true"><span class="octicon octicon-link"></span></a>Arborescence du Menu :</h3>
+<ul>
+<li>Capteurs</li>
+	<ul>
+	<li>Humidité : sonde DHT</li>
+	<li>Température : sonde digitale -> DS18B20</li>
+	<li>Luminosité : capteur de lumière</li>
+	<li>Record : provoque l'enregistrement des valeurs à raison de 1/mn (avec affichage courbes pour température et luminosité)</li>
+	</ul>
+<li>Data</li>
+	<ul>
+	<li>Accéléromètre : 3 axes ax-ay-az</li>
+	<li>Gyroscope : 3 axes gx-gy-gz</li>
+	<li>Record : déclenche l'émission sur le port série (usb : 9600 bauds) des valeurs ax, ay et az. Ces données peuvent alors être exploitées à partir d'un Mac ou PC avec le code Processing 2 (c)</li>
+	</ul>
 </ul>
 <hr>
 <iframe src="http://www.youtube.com/embed/V5dCwXmcHJQ" width="640" height="385"></iframe>
